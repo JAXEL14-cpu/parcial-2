@@ -23,7 +23,7 @@ public class MainApp {
         // Crear el builder
         Pedido.Builder builder = new Pedido.Builder()
                 .setCliente(cliente)
-                .setNumeroTarjeta(rand.nextInt(90000000) + 10000000);
+                .setNumeroTarjeta(rand.nextInt(9000) + 1000);
 
         int opcion;
         do {
